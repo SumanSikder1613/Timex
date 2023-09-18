@@ -1,51 +1,81 @@
-.gradient-background{
-background-image: radial-gradient( circle 975px at 2.6% 48.3%,  rgba(0,8,120,1) 0%, rgba(95,184,224,1) 99.7% );
-background-size: 180% 180%;
-  animation: gradient-animation 18s ease infinite;
-}
-@keyframes gradient-animation {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
-  .Collections-container{
-
-    height: 900px;
-    background-color: ;
+  
+  .container-nav{
     display: grid;
-    grid-template-rows: 1fr 2fr 1fr;
-    background-color:  #f7f7f7;;
-    
+    background-color:rgb(237, 237, 237);
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows:100px;
+    font-size: 18px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);;
   }
-  .Collections-heading{
-    background-color: rgb(239, 235, 235);
+  body{
+    margin: 0px;
   }
-  .Collections-heading h2{
-    margin-top: 20px;
-    padding: 20px;
-    font-family:'Noto Serif', serif; ;
-    text-align: center;
-    font-size: 5em;
-    color: #320808;
-  }
-  .Collections-images{
-    display: flex;
-    justify-content: space-around;
-    height: 300px;
-    margin-top: 40px;
+            
+     .nav-items{
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color:black;
       }
-    
-      
-      
+     
+  .search-container {
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .search-bar {
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #fff;
+      }
+  
+  #search-input {
+    flex-grow: 1;
+    border: none;
+    padding: 10px;
+    border-radius: 20px 0 0 20px;
+  }
+  
+  #search-button {
+    background-color: #4c4c4c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 0 20px 20px 0;
+  }
+  .display-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 600px auto;
+    background-image: url(Images/Banner.jpg);
+    }
+    button{
+      background-color: #3498db; /* Background color */
+      color: #fff; /* Text color */
+      padding: 10px 20px; /* Padding (top/bottom, left/right) */
+      border: none; /* Remove the default button border */
+      border-radius: 5px; /* Rounded corners */
+      cursor: pointer; /* Cursor style on hover */
+    }
 
-
-
-    
-
+    /* Adding a hover effect */
+    button:hover {
+      background-color: #2980b9; /* New background color on hover */
+    }
+    .Timex{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+    }
+    .Timex > h1{
+      font-size: 10em;
+      margin: 0;
+      color: white;
+    }
+   
   
