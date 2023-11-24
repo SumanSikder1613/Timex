@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Products Page</title>
+    <style>
+        /* Basic styles for the page */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 5px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        a {
+            color: #f7f6f6;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Styles for the search bar */
+        .search-container {
+            text-align: center;
+            padding: 20px;
+        }
+
+        input[type="text"] {
+            padding: 8px;
+            width: 400px;
+            font-size: 16px;
+        }
+
+        /* Styles for the groceries sections */
+        .products-container {
+            display: flex;
+            flex-wrap:wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .products-item {
+            width: 200px;
+            margin: 10px;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 4px;
+        }
+
+        .products-item img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .products-item h3 {
+            margin: 5px 0;
+            font-size: 16px;
+        }
+
+        .products-item p {
+            color: #888;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Products Page</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+        </ul>
+    </nav>
+
+    <div class="search-container">
+        <input type="text" placeholder="Search for products...">
+    </div>
+
+    <div class="products-container">
+        <div class="products-item">
+            <img src="../Images/download.jpg" alt="TV">
+            <h3>LED TV</h3>
+            <p>42'inches smart led tv</p>
+        </div>
+
+        <div class="products-item">
+            <img src="../Images/REF.jpg" alt="Refrigerator">
+            <h3>Refrigerator</h3>
+            <p>Double door Refrigerator.</p>
+        </div>
+        <div class="products-item">
+            <img src="../Images/hd.jpg" alt="Headphone">
+            <h3>Headphone</h3>
+            <p>Good Headphone.</p>
+        </div>
+        <div class="products-item">
+            <img src="../Images/t1.jpg" alt="Roomba">
+            <h3>Roomba</h3>
+            <p>Cleans Good.</p>
+        </div>
+        <div class="products-item">
+            <img src="../Images/t2.jpg" alt="Smartphone">
+            <h3>Smartphone</h3>
+            <p>Good Phone</p>
+        </div>
+
+        <!-- Add more grocery items as needed -->
+
+    </div>
+
+</body>
+</html>
